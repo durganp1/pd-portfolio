@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import About from './components/About';
+import Footer from './components/Footer';
 import SinglePage from './components/SinglePage';
 
 function App() {
@@ -32,6 +32,9 @@ function App() {
       <main>
         <SinglePage currentSection = {currentSection}></SinglePage>
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }
