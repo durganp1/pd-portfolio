@@ -90,10 +90,9 @@ function Resume() {
     return (
        <section>
            <h1>Peter J. Durgan</h1>
-           <h3>Round Lake Beach, Illinois  60073
-            Phone: Home 847-548-0775 Cell 224-944-3210
-            durganp1@gmail.com
-            </h3>
+           <h3>Round Lake Beach, Illinois  60073</h3>
+            <h3>Home 847-548-0775 {' '} Cell 224-944-3210</h3>
+            <h3>durganp1@gmail.com</h3>
             <p>
                 <a href = 'https://www.linkedin.com/in/peter-durgan'>Resume</a>
             </p>
