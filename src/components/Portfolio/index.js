@@ -61,18 +61,35 @@ function Portfolio() {
             description: 'Coding Quiz is a short 10 question quiz to test your basic coding knowledge.'
         }
     ])
+    console.log(projects);
+
 
     return (
         <div>
             <ul>
                 {projects.map((project) => (
-                    <li key = {project.title}>
-                        <span>{project.title}</span>
-                        <span>{project.githubLink}</span>
-                        <span>{project.deployedLink}</span>
-                        <span>{project.stack}</span>
-                        <span>{project.description}</span>
+                    
+                    <li className = 'project-container' key = {project.title} >
+                       
+                        <div className = 'project-text'>
+                        <span className = 'project-title'>{project.title}</span>
+                        <br></br>
+                        <a href = {project.githubLink} target = '_blank' rel = 'noreferrer' >GitHub Link</a>
+                        <br></br>
+                        <a href = {project.deployedLink} target = '_blank' rel = 'noreferrer'>Deployed Link</a>
+                        <br></br>
+                        <span className = 'project-stack'>Created with: {project.stack}</span>
+                        <br></br>
+                        <span className = 'project-description'>{project.description}</span>
+                        </div>
+                        
+                        <div className = 'background-container'>
+                        <div className = 'project-background' style = {{backgroundImage: `url(${project.img})`}}>
+
+                        </div>
+                        </div>
                     </li>
+                    
                 ))}
             </ul>
         </div>

@@ -18,8 +18,8 @@ function App() {
   const [currentSection, setCurrentSection] = useState({ name: 'About Me'});
 
   return (
-    <div>
-      <header>
+    <div className = 'container'>
+      <header className = 'header'>
         <Header></Header>
         <Nav
         sections = {sections}
@@ -29,10 +29,10 @@ function App() {
         setPageSelected = {setPageSelected}
         ></Nav>
       </header>
-      <main>
+      <main className = 'main-body'>
         <SinglePage currentSection = {currentSection}></SinglePage>
       </main>
-      <footer>
+      <footer className = 'footer'>
         <Footer></Footer>
       </footer>
     </div>
