@@ -1,6 +1,7 @@
 {
   "name": "pd-portfolio",
   "version": "0.1.0",
+  "homepage": "https://durganp1.github.io/pd-portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
@@ -31,8 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "homepage": "https://durganp1.github.io/pd-portfolio/"
+    "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
