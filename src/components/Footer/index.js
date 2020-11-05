@@ -22,7 +22,7 @@ function Footer() {
     ]
 
     return (
-        <footer>
+        <footer className = 'footer-icons'>
             {icons.map(icon => (
                 <a href = {icon.link} key = {icon.name} target = '_blank' rel = 'noreferrer'><icon.name /></a>
             ))}

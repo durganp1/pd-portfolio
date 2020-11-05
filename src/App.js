@@ -18,6 +18,7 @@ function App() {
   const [currentSection, setCurrentSection] = useState({ name: 'About Me'});
 
   return (
+    <div>
     <div className = 'container'>
       <header className = 'header'>
         <Header></Header>
@@ -32,9 +33,11 @@ function App() {
       <main className = 'main-body'>
         <SinglePage currentSection = {currentSection}></SinglePage>
       </main>
+      </div>
       <footer className = 'footer'>
         <Footer></Footer>
       </footer>
+    
     </div>
   );
 }
