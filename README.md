@@ -7,7 +7,7 @@
 https://durganp1.github.io/pd-portfolio/
 
 ## Description
-    Personal Profile for Peter Durgan, showcasing different projects.  Built with React, Javascript, HTML and CSS.
+Personal Profile for Peter Durgan, showcasing different projects.  Built with React, Javascript, HTML and CSS.
 
 ## Table of Contents
 
