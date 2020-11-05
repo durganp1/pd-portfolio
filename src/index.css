@@ -69,8 +69,6 @@ code {
   width: 252px;
   height: 200px;
   margin-left: 20px;
-  
-
 }
 
 .project-title {
@@ -82,4 +80,42 @@ code {
 .project-stack {
   font-size: 1rem;
   
+}
+
+input, textarea, button {
+  border-radius: 15px;
+}
+
+.message-label {
+  vertical-align: top;
+  padding: 20px 10px;
+}
+
+.contact-div {
+  padding: 10px;
+}
+
+.resume-head {
+  text-align: center;
+}
+
+.company-wrapper {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.company-name {
+  display: inline-block;
+  width: 70%;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.job {
+  margin-bottom: 30px;
+  list-style-type: none;
 }

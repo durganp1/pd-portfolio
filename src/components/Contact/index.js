@@ -42,16 +42,16 @@ function Contact() {
         <section>
             <h1>Contact Me</h1>
             <form onSubmit = {handleSubmit}>
-                <div>
+                <div className = 'contact-div'>
                     <label htmlFor = 'name'>Name:</label>
                     <input type = 'text' onChange = {handleChange} name = 'name' defaultValue = {name} />
                 </div>
-                <div>
+                <div className = 'contact-div'>
                     <label htmlFor = 'email'>Email address:</label>
                     <input type = 'email' onChange = {handleChange} name = 'email' defaultValue = {email} />
                 </div>
-                <div>
-                    <label htmlFor = 'message'>Message:</label>
+                <div className = 'textarea'>
+                    <label className = 'message-label' htmlFor = 'message'>Message:</label>
                     <textarea name = 'message' onChange = {handleChange} rows = '5' defaultValue = {message} />
                     {errorMessage && (
                         <div>
