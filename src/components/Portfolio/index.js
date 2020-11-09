@@ -7,6 +7,7 @@ import note_taker from '../../assets/img/note_taker.jpg';
 import weather_dashboard from '../../assets/img/weather_dashboard.jpg';
 import donation_network from '../../assets/img/donation_network.jpg';
 import coding_quiz from '../../assets/img/coding_quiz.jpg';
+import charity_warehouse from '../../assets/img/charity_warehouse.jpg';
 
 
 function Portfolio() {
@@ -59,6 +60,14 @@ function Portfolio() {
             deployedLink: 'https://durganp1.github.io/Coding-Quiz-Challenge/',
             stack: 'JavaScript, HTML and CSS',
             description: 'Coding Quiz is a short 10 question quiz to test your basic coding knowledge.'
+        },
+        {
+            title: 'Charity Warehouse',
+            img: charity_warehouse,
+            githubLink: 'https://github.com/DevelopedByDay/charity-warehouse/tree/main',
+            deployedLink: 'https://charity-warehouse.herokuapp.com/',
+            stack: 'MERN',
+            description: 'An online PWA to browse throught charities by category'
         }
     ])
     console.log(projects);
