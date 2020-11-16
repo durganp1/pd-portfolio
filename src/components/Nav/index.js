@@ -18,7 +18,7 @@ function Nav(props) {
         <nav>
             <ul>
                 {sections.map((page) => (
-                    <li className = 'left-child' key = {page.name}>
+                    <li className = 'left-child' key = {page.name} style = {{cursor: "grabbing"}}>
                         <span onClick = {() => {setCurrentSection(page)}}>
                             {page.name}
                         </span>
