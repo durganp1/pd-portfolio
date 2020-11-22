@@ -68,7 +68,7 @@ function DeployedProjects() {
             deployedLink: 'https://charity-warehouse.herokuapp.com/',
             stack: 'MERN',
             description: 'An online PWA to browse throught charities by category'
-        }
+        },
     ])
     console.log(projects);
 
