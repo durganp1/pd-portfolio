@@ -1,15 +1,34 @@
 
 
-import React from 'react';
-import profileHeader from '../../assets/img/profileHeader.jpg';
+import React, {useEffect} from 'react';
 
-function Header() {
+function Header(props) {
+
+    const {
+        sections = [],
+        currentSection,
+        setCurrentSection
+    } = props;
+
+    useEffect(() => {
+        document.title = (currentSection.name)
+    }, [currentSection]);
 
     return (
-        <section className = 'left-child'>
-            <img src = {profileHeader} className = 'profileImg' style = {{width: '40%'}}  alt = 'cover' />
+        <header className = 'header'>
             <h1>Peter J Durgan</h1>
-        </section>
+            <nav>
+                <ul>
+                    {sections.map((page) => (
+                        <li className = 'nav' key = {page.name} style = {{cursor: "grabbing"}}>
+                            <span onClick = {() => {setCurrentSection(page)}}>
+                                {page.name}
+                            </span>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
+        </header>
     );
 }
 

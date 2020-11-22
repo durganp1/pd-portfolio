@@ -2,8 +2,8 @@
 
 import React from 'react';
 import About from '../About';
-import Contact from '../Contact';
-import Portfolio from '../Portfolio';
+import Contact from '../Github';
+import DeployedProjects from '../Portfolio';
 import Resume from '../Resume';
 
 const SinglePage = (page) => {
@@ -17,14 +17,14 @@ const SinglePage = (page) => {
                     </div>
                 );
 
-            case 'Portfolio':
+            case 'Deployed Projects':
                 return (
                     <div>
-                        <Portfolio />
+                        <DeployedProjects />
                     </div>
                 );
 
-            case 'Contact':
+            case "GitHub Repo's":
                 return (
                     <div>
                         <Contact />

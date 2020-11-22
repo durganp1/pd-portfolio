@@ -10,7 +10,7 @@ import coding_quiz from '../../assets/img/coding_quiz.jpg';
 import charity_warehouse from '../../assets/img/charity_warehouse.jpg';
 
 
-function Portfolio() {
+function DeployedProjects() {
 
     const [projects] = useState([
         {
@@ -105,4 +105,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio;
+export default DeployedProjects;

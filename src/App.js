@@ -9,8 +9,8 @@ function App() {
 
   const [sections] = useState([
     { name: 'About Me'},
-    { name: 'Portfolio'},
-    { name: 'Contact'},
+    { name: "GitHub Repo's"},
+    { name: 'Deployed Projects'},
     { name: 'Resume'}
   ]);
 
@@ -20,15 +20,17 @@ function App() {
   return (
     <div>
     <div className = 'container'>
-      <header className = 'header'>
-        <Header></Header>
-        <Nav
+      <header className = 'header-container'>
+        <Header
         sections = {sections}
         currentSection = {currentSection}
         setCurrentSection = {setCurrentSection}
         pageSelected = {pageSelected}
         setPageSelected = {setPageSelected}
-        ></Nav>
+        ></Header>
+        {/* <Nav
+        
+        ></Nav> */}
       </header>
       <main className = 'main-body'>
         <SinglePage currentSection = {currentSection}></SinglePage>
