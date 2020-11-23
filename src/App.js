@@ -28,9 +28,6 @@ function App() {
         pageSelected = {pageSelected}
         setPageSelected = {setPageSelected}
         ></Header>
-        {/* <Nav
-        
-        ></Nav> */}
       </header>
       <main className = 'main-body'>
         <SinglePage currentSection = {currentSection}></SinglePage>

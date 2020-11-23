@@ -13,13 +13,24 @@ function About() {
 
     return (
         <div>
-            <section>
-                <p>
-                Senior level manager with experience in project management of multiple projects concurrently within a multi-state territory.  Recently earned MERN Full Stack Coding certificate from University of Wisconsin coding bootcamp.  Acquired skills in CSS, HTML, JavaScript, Node, GraphQL, and React.  I am a motivational leader who emphasizes a ‘One Team’ approach to all aspects of the job environment.  Focused on achieving timeline goals while remaining within the financial budget by keeping my teams engaged and highly productive.  I have a passion for mentoring and developing members of my team to achieve their dreams.  I am excited to integrate my prior leadership experience with my love of coding to accomplish highly successful, user-friendly apps that impact people’s lives.
-
+            <h2>About Me</h2>
+            <section className = 'about-section'>
+                <p className = 'about-text'>
+                &emsp;Senior level manager with experience in project management of 
+                multiple projects concurrently within a multi-state territory.  
+                Recently earned MERN Full Stack Coding certificate from University 
+                of Wisconsin coding bootcamp.  Acquired skills in CSS, HTML, 
+                JavaScript, Node, GraphQL, and React.  I am a motivational leader 
+                who emphasizes a ‘One Team’ approach to all aspects of the job 
+                environment.  Focused on achieving timeline goals while remaining 
+                within the financial budget by keeping my teams engaged and 
+                highly productive.  I have a passion for mentoring and developing 
+                members of my team to achieve their dreams.  I am excited to 
+                integrate my prior leadership experience with my love of coding to 
+                accomplish highly successful, user-friendly apps that impact people’s lives.
                 </p>
             </section>
-            <section>
+            <section className = 'contact-section'>
                 <h1 className = 'contactTitle'>Contact Me</h1>
                     <div className = 'contact-div'>
                         <p>Phone: 224.944.3210</p>
@@ -37,10 +48,10 @@ function About() {
                         </p>
                     </div>
             </section>
-            <section className = 'aboutSection'>
+            <section className = 'about-section'>
                 
-                <p className = 'aboutText'>
-                        I have lived in the Chicago area for over 15 years with my wife
+                <p className = 'about-text'>
+                    &emsp;I have lived in the Chicago area for over 15 years with my wife
                     and 2 children.  My career has focused on Hospitality and Food Service 
                     Management for the past 25 years.  This has lead me through multiple 
                     companies, while growing up to my most recent position as District Manger
@@ -48,13 +59,15 @@ function About() {
                     field of web development.  It is my goal to use my prior experince combined 
                     with my new found experince of coding.  
                 </p>
-                <img src = {marine} style = {{width: '10%'}}  alt = 'Marine logo' />
-                <img src = {couple} style = {{width: '35%'}} alt="" />
-                <img src = {riley} style = {{width: '35%'}} alt="" />
-                <img src = {addison} style = {{width: '35%'}} alt="" />
-                <img src = {elle} style = {{width: '35%'}} alt="" />
-                <img src = {bumblebee} style = {{width: '35%'}} alt="" />
-                <img src = {jasimine} style = {{width: '35%'}} alt="" />
+                <div>
+                    {/* <img src = {marine}  alt = 'Marine logo' /> */}
+                    <img src = {couple} alt="" />
+                    <img src = {riley} alt="" />
+                    <img src = {addison} alt="" />
+                    <img src = {elle} alt="" />
+                    <img src = {bumblebee} alt="" />
+                    <img src = {jasimine} alt="" />
+                </div>
             </section>
         </div>
     );

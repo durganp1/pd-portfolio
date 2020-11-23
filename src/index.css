@@ -7,57 +7,125 @@
 }
 
 body {
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-  
-}
-
+/* Header and Nav Start */
 .header-container {
   background-color: royalblue;
 }
 
 .header {
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
   min-height: 60px;
-  padding-left: 10px;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header nav ul {
+  display: flex;
+}
+
+.nav-li {
+  list-style-type: none;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.nav-li:hover{
+  text-decoration: underline;
 }
 
 .main-body {
-  background-color: rgba(173, 232, 244);
+  background-color: lightsteelblue;
   min-height: 900px;
+  padding-bottom: 40px;
 }
 
-
-
-.aboutText {
-  font-size: 1rem;
+.main-body h2 {
+  text-align: center;
+  font-size: 35px;
+  padding: 30px;
 }
 
-.aboutSection{
+/* About and Contact Start */
+.about-section{
   padding: 20px;
 }
 
-.profileImg {
+.contact-section{
   padding: 20px;
 }
 
+.about-text {
+  font-size: 25px;
+}
+
+.about-section div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-section div img {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+
+.about-text::first-letter{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+/* GitHub Start */
+.github-div {
+  margin-left: 50px;
+}
+
+.github-li {
+  margin: 0 10px 0 10px;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+strong {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.repo-title {
+  font-size: 30px;
+}
+
+.github-li div a:hover {
+  color: red;
+}
+
+/* Deployed Projects Start */
 .project-container {
   display: flex;
   flex-wrap: nowrap;
   list-style-type: none;
-  margin-bottom: 2rem;
-  height: 200px;
+  margin: 40px 20px;
+  font-size: 20px;
+  align-items: flex-start;
 }
 
 .project-text {
-  width: 70%;
+  width: 65%;
+  margin: 0 10px 60px 10px;
+  font-size: 20px;
+  
 }
 
 .background-container {
-  width: 30%;
+  width: 35%;
+  padding-left: 70px;
 }
 
 .project-background {
@@ -67,66 +135,80 @@ body {
 }
 
 .project-title {
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
-
 }
 
-.project-stack {
-  font-size: 1rem;
-  
+.project-container div a:hover {
+  color: red;
 }
 
-input, textarea, button {
-  border-radius: 15px;
-}
-
-.message-label {
-  vertical-align: top;
-  padding: 20px 10px;
-}
-
-.contact-div {
-  padding: 10px;
-}
-
+/*  Resume Start  */
 .resume-head {
   text-align: center;
 }
 
-.company-wrapper {
+.resume-head h1 {
+  font-size: 30px;
+}
+
+.resume-head h3 {
   font-size: 20px;
+}
+
+.job-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.company-wrapper {
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
 .company-name {
   display: inline-block;
-  width: 70%;
+  width: 50%;
 }
 
 .job-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .job {
-  margin-bottom: 50px;
   list-style-type: none;
-  margin-right: 30px;
+  font-size: 20px;
+  margin: 50px 20px;
+}
+
+.skills-div {
+  font-size: 20px;
+  margin: 20px 20px 0 20px;
+}
+
+.skills-div ul {
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+
+/*  Footer Start  */
+.footer {
+  background-color: royalblue;
 }
 
 .footer-icons {
   text-align: center;
-  font-size: 2rem;
+  font-size: 50px;
+  padding: 30px;
 }
 
-.contactTitle {
-  font-size: 2rem;
+.footer-icons a {
+  padding: 0 30px;
 }
 
-.contact-div {
-  padding-left: 2rem;
-}
+
 
 

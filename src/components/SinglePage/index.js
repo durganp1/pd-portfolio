@@ -3,7 +3,7 @@
 import React from 'react';
 import About from '../About';
 import Contact from '../Github';
-import DeployedProjects from '../Portfolio';
+import DeployedProjects from '../DeployedProjects';
 import Resume from '../Resume';
 
 const SinglePage = (page) => {

@@ -142,14 +142,15 @@ function GitHub() {
 
     return (
         <div>
+            <h2>GitHub Repo's</h2>
             <ul>
                 {repos.map((repo) => (
-                    <li className = '' key = {repo.title} >
-                        <div>
-                            <span>{repo.title}</span>
-                            <a href = {repo.githubLink} target = '_blank' rel = 'noreferrer'>GitHub Link</a>
-                            <span>Created with: {repo.stack}</span>
-                            <span>{repo.description}</span>
+                    <li className = 'github-li' key = {repo.title} >
+                        <div className = 'github-div'>
+                            <span className = 'repo-title'>{repo.title}</span><br></br>
+                            <a href = {repo.githubLink} target = '_blank' rel = 'noreferrer'>GitHub Link</a><br></br>
+                            <span>{repo.description}</span><br></br>
+                            <span><strong>Tech and process: </strong>{repo.stack}</span>
                         </div>
                     </li>
                 ))}

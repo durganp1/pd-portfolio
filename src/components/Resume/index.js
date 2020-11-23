@@ -89,16 +89,17 @@ function Resume() {
 
     return (
        <section>
+           <h2>Resume</h2>
            <div className = 'resume-head'>
            <h1>Peter J. Durgan</h1>
            <h3>Round Lake Beach, Illinois  60073</h3>
             <h3>Home 847-548-0775 {' '} Cell 224-944-3210</h3>
             <h3>durganp1@gmail.com</h3>
             <p>
-                <a href = 'https://www.linkedin.com/in/peter-durgan'>Resume</a>
+                {/* <a href = 'https://www.linkedin.com/in/peter-durgan'>Resume</a> */}
             </p>
             </div>
-            <div>
+            <div className = 'job-div'>
                 <ul>
                     {experience.map((job) => (
                         <li className = 'job' key = {job.company}>
@@ -114,7 +115,7 @@ function Resume() {
                     ))}
                 </ul>
             </div>
-            <div>
+            <div className = 'skills-div'>
                 <h3>Technical Skills</h3>
                 <ul>
                     <li>HTML</li>
@@ -135,7 +136,7 @@ function Resume() {
                     <li>REST</li>
                 </ul>
             </div>
-            <div>
+            <div className = 'skills-div'>
                 <h3>Skills / Honors</h3>
                 <ul>
                     <li>ALDP - Advanced Leadership Development Program - Aramark</li>

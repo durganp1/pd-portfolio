@@ -20,7 +20,7 @@ function Header(props) {
             <nav>
                 <ul>
                     {sections.map((page) => (
-                        <li className = 'nav' key = {page.name} style = {{cursor: "grabbing"}}>
+                        <li className = 'nav-li' key = {page.name} style = {{cursor: "grabbing"}}>
                             <span onClick = {() => {setCurrentSection(page)}}>
                                 {page.name}
                             </span>
