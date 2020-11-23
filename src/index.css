@@ -56,6 +56,22 @@ body {
   padding: 20px;
 }
 
+.about-photo-div {
+  position: relative;
+}
+
+.bean {
+  width: 100%;
+  opacity: .5;
+}
+
+.about-photo-title {
+  position: relative;
+  bottom: 10em;
+  text-align: center;
+  font-size: 3em;
+}
+
 .contact-section{
   padding: 20px;
 }

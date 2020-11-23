@@ -8,11 +8,17 @@ import elle from '../../assets/img/elle.jpg';
 import addison from '../../assets/img/addison.jpg';
 import bumblebee from '../../assets/img/bumblebee.jpg';
 import jasimine from '../../assets/img/jasimine.jpg';
+import bean from '../../assets/img/theBean.jpg';
+
 
 function About() {
 
     return (
         <div>
+            <div className = 'about-photo-div'>
+                <img src = {bean} alt="" className = 'bean'/>
+                <p className = 'about-photo-title'>Web Developer</p>
+            </div>
             <h2>About Me</h2>
             <section className = 'about-section'>
                 <p className = 'about-text'>
