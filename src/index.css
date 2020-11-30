@@ -13,6 +13,12 @@ body {
 /* Header and Nav Start */
 .header-container {
   background-color: royalblue;
+  width: 100%;
+  min-height: 3em;
+  z-index: 1;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .header {
@@ -56,8 +62,39 @@ body {
   padding: 20px;
 }
 
+.about-photo-div {
+  background-image: url('./assets/img/theBean.jpg');
+  background-size: cover;
+  background-position: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  min-height: 60vw;
+  opacity: .8;
+}
+
+.about-photo-title {
+  font-size: 55px;
+  margin: 30% 25% auto 25%;
+  font-weight: bold;
+  color: white;
+}
+
 .contact-section{
   padding: 20px;
+  line-height: 1.5;
+}
+
+.contactTitle {
+  font-size: 35px;
+}
+
+.contact-div {
+  font-size: 25px;
+}
+
+.contact-div p a:hover {
+  color: red;
 }
 
 .about-text {
@@ -170,7 +207,7 @@ strong {
 
 .company-name {
   display: inline-block;
-  width: 50%;
+  width: 60%;
 }
 
 .job-title {
