@@ -9,8 +9,8 @@ function App() {
 
   const [sections] = useState([
     { name: 'About Me'},
-    { name: "GitHub Repo's"},
     { name: 'Deployed Projects'},
+    { name: "GitHub Repo's"},
     { name: 'Resume'}
   ]);
 

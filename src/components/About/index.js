@@ -8,7 +8,7 @@ import elle from '../../assets/img/elle.jpg';
 import addison from '../../assets/img/addison.jpg';
 import bumblebee from '../../assets/img/bumblebee.jpg';
 import jasimine from '../../assets/img/jasimine.jpg';
-import bean from '../../assets/img/theBean.jpg';
+// import bean from '../../assets/img/theBean.jpg';
 
 
 function About() {
@@ -16,7 +16,7 @@ function About() {
     return (
         <div>
             <div className = 'about-photo-div'>
-                <img src = {bean} alt="" className = 'bean'/>
+                {/* <img src = {bean} alt="" className = 'bean'/> */}
                 <p className = 'about-photo-title'>Web Developer</p>
             </div>
             <h2>About Me</h2>
@@ -42,7 +42,7 @@ function About() {
                         <p>Phone: 224.944.3210</p>
                         <p>Email: durganp1@gmail.com
                             <br></br>
-                            <a href = 'mailto:durganp1@gmail.com'>Send Email</a>
+                            <a href = 'mailto:durganp1@gmail.com'>Email</a>
                         </p>
                         <p>
                             <a href = 'www.linkedin.com/in/peter-durgan' target = '_blank' rel = 'noreferrer' >LinkedIn</a>

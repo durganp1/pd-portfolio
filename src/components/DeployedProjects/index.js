@@ -14,12 +14,36 @@ function DeployedProjects() {
 
     const [projects] = useState([
         {
+            title: 'Charity Warehouse',
+            img: charity_warehouse,
+            githubLink: 'https://github.com/DevelopedByDay/charity-warehouse/tree/main',
+            deployedLink: 'https://charity-warehouse.herokuapp.com/',
+            stack: 'MERN',
+            description: 'An online PWA to browse throught charities by category'
+        },
+        {
+            title: 'Donation Network',
+            img: donation_network,
+            githubLink: 'https://github.com/durganp1/Food-Donation-Network',
+            deployedLink: 'https://durganp1.github.io/Food-Donation-Network/',
+            stack: "JavaScript, HTML, CSS, PureCSS and API's",
+            description: 'Donation Network was created to connect food service providers with local charities for food donations'
+        },
+        {
             title: 'Budget Tracker PWA',
             img: budget_tracker,
             githubLink: 'https://github.com/durganp1/budget-tracker',
             deployedLink: 'https://petro-budget-tracker.herokuapp.com/',
             stack: 'JavaScript, MongoDB, MongoAtlas, Node, CSS, HTML, Express and Mongoose.',
             description: 'Budget Tracker is an installable app to help you track your deposits and withdrawls.'
+        },
+        {
+            title: 'Weather Dashboard',
+            img: weather_dashboard,
+            githubLink: 'https://github.com/durganp1/weather-dashboard',
+            deployedLink: 'https://durganp1.github.io/weather-dashboard/',
+            stack: "JavaScript, Bootstrap, CSS, API's and HTML",
+            description: 'Weather Dashboard will give you the current weather as well as a 5 day forecast for any city in the U.S.'
         },
         {
             title: 'Tech Blog',
@@ -38,22 +62,6 @@ function DeployedProjects() {
             description: 'Note taker is a program to help you keep track of your to-do list.'
         },
         {
-            title: 'Weather Dashboard',
-            img: weather_dashboard,
-            githubLink: 'https://github.com/durganp1/weather-dashboard',
-            deployedLink: 'https://durganp1.github.io/weather-dashboard/',
-            stack: "JavaScript, Bootstrap, CSS, API's and HTML",
-            description: 'Weather Dashboard will give you the current weather as well as a 5 day forecast for any city in the U.S.'
-        },
-        {
-            title: 'Donation Network',
-            img: donation_network,
-            githubLink: 'https://github.com/durganp1/Food-Donation-Network',
-            deployedLink: 'https://durganp1.github.io/Food-Donation-Network/',
-            stack: "JavaScript, HTML, CSS, PureCSS and API's",
-            description: 'Donation Network was created to connect food service providers with local charities for food donations'
-        },
-        {
             title: 'Coding Quiz',
             img: coding_quiz,
             githubLink: 'https://github.com/durganp1/Coding-Quiz-Challenge',
@@ -61,14 +69,7 @@ function DeployedProjects() {
             stack: 'JavaScript, HTML and CSS',
             description: 'Coding Quiz is a short 10 question quiz to test your basic coding knowledge.'
         },
-        {
-            title: 'Charity Warehouse',
-            img: charity_warehouse,
-            githubLink: 'https://github.com/DevelopedByDay/charity-warehouse/tree/main',
-            deployedLink: 'https://charity-warehouse.herokuapp.com/',
-            stack: 'MERN',
-            description: 'An online PWA to browse throught charities by category'
-        },
+        
     ])
     console.log(projects);
 
