@@ -65,10 +65,11 @@ body {
 .about-photo-div {
   background-image: url('./assets/img/theBean.jpg');
   background-size: cover;
-  background-position: cover;
-  background-attachment: fixed;
+  background-position: 80%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   min-height: 60vw;
   opacity: .8;
 }
@@ -207,12 +208,16 @@ strong {
 
 .company-name {
   display: inline-block;
-  width: 60%;
+  width: 65%;
 }
 
 .job-title {
   font-size: 20px;
   font-weight: bold;
+}
+
+.job-dates {
+  margin-left: 25px;
 }
 
 .job {
@@ -246,6 +251,79 @@ strong {
   padding: 0 30px;
 }
 
+@media screen and (max-width: 1000px) {
+  .project-text {
+    width: 55%;
+  }
 
+  .job-dates {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .about-photo-title {
+    font-size: 45px;
+  }
+
+  .project-text {
+    width: 45%;
+  }
+
+  .job-dates {
+    font-size: 15px;
+  }
+
+  .company-name {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .header {
+    font-size: 25px;
+  }
+
+  .nav-li {
+    font-size: 16px;
+  }
+
+  .about-text {
+    font-size: 20px;
+  }
+
+  .contactTitle {
+    font-size: 30px;
+  }
+
+  .contact-div {
+    font-size: 20px;
+  }
+
+  .about-photo-title {
+    font-size: 35px;
+  }
+
+  .project-container {
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+
+  .project-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .background-container {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .project-background {
+    margin: auto;
+  }
+
+}
 
 
