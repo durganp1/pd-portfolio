@@ -277,6 +277,10 @@ strong {
   .company-name {
     font-size: 20px;
   }
+
+  .github-div {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 670px) {
@@ -324,6 +328,33 @@ strong {
     margin: auto;
   }
 
+}
+
+@media screen and (max-width: 545px) {
+  .header nav ul {
+    display: block;
+  }
+
+  .nav-li {
+    padding: 10px;
+  }
+
+  .about-photo-title {
+    text-align: center;
+  }
+
+  .company-name {
+    font-size: 15px;
+    width: 50%;
+  }
+
+  .job-title {
+    font-size: 15px;
+  }
+
+  .job-desc {
+    font-size: 15px;
+  }
 }
 
 
