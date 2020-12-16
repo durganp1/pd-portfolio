@@ -158,12 +158,16 @@ strong {
   width: 65%;
   margin: 0 10px 60px 10px;
   font-size: 20px;
-  
 }
 
 .background-container {
   width: 35%;
   padding-left: 70px;
+  transition: 2s 1s;
+}
+
+.background-container:hover {
+  transform: rotateZ(360deg);
 }
 
 .project-background {
