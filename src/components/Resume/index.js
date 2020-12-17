@@ -90,14 +90,13 @@ function Resume() {
     return (
        <section>
            <h2>Resume</h2>
+           <a href='https://docs.google.com/document/d/1Azep51R4qDNSCxhpUptjGg2R9crCSWqvMpr13Lrqf5I/edit?usp=sharing' target='_blank' rel='noreferrer' class='resume'>Resume Doc</a>
            <div className = 'resume-head'>
            <h1>Peter J. Durgan</h1>
            <h3>Round Lake Beach, Illinois  60073</h3>
             <h3>Home 847-548-0775 {' '} Cell 224-944-3210</h3>
             <h3>durganp1@gmail.com</h3>
-            <p>
-                {/* <a href = 'https://www.linkedin.com/in/peter-durgan'>Resume</a> */}
-            </p>
+            
             </div>
             <div className = 'job-div'>
                 <ul>
