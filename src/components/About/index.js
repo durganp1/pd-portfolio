@@ -45,7 +45,7 @@ function About() {
                             <a href = 'mailto:durganp1@gmail.com'>Email</a>
                         </p>
                         <p>
-                            <a href = 'www.linkedin.com/in/peter-durgan' target = '_blank' rel = 'noreferrer' >LinkedIn</a>
+                            <a href = 'https://www.linkedin.com/in/peter-durgan' target = '_blank' rel = 'noreferrer' >LinkedIn</a>
                             <br></br>
                         </p>
                         <p>
