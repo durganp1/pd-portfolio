@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import {FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa';
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
 
 
 function Footer() {
@@ -14,10 +14,6 @@ function Footer() {
         {
             name: FaLinkedin,
             link: 'https://linkedin.com/in/peter-durgan'
-        },
-        {
-            name: FaFacebook,
-            link: 'https://www.facebook.com/peter.durgan.5'
         }
     ]
 
